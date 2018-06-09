@@ -56,7 +56,7 @@ ll partition(vector < ll >& v,ll low,ll high)
 		}
 	}
 	
-	swap(v[i+1],v[high]);
+	swap(v[i+1],v[high]); //Should not use swap(v[i+1],pivot);
 	return (i+1);
 }
 	
