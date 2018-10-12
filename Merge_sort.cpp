@@ -1,7 +1,7 @@
 //Sreejith
 //9-6-2018
 //Merge Sort
-
+//The following program depicts merge sort using cpp stl
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
