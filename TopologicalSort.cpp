@@ -31,12 +31,8 @@ void topsort(ll v)
 	for( auto i : adj[v] )
 	{
 		if(!vis[i])
-		{
-			db(i);
 			topsort(i);
-		}
 	}
-	db(v);
 	st.push(v);
 } 
   
